@@ -1,0 +1,78 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>app.owlcms</groupId>
+        <artifactId>owlcms4top</artifactId>
+        <version>4.4.3-beta1</version>
+    </parent>
+
+    <artifactId>owlcms4-heroku</artifactId>
+    <packaging>pom</packaging>
+
+    <properties>
+        <!-- maven configs -->
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+    </properties>
+
+    <build>
+        <plugins>
+            <plugin>
+                <artifactId>maven-resources-plugin</artifactId>
+                <version>3.1.0</version>
+                <executions>
+                    <execution>
+                        <id>filter-markdown</id>
+                        <phase>package</phase>
+                        <goals>
+                            <goal>copy-resources</goal>
+                        </goals>
+                        <configuration>
+                            <outputDirectory>${basedir}</outputDirectory>
+                            <resources>
+                                <resource>
+                                    <directory>src/main/markdown</directory>
+                                    <exclude>.*</exclude>
+                                    <filtering>true</filtering>
+                                </resource>
+                            </resources>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+            <plugin>
+                <groupId>com.ragedunicorn.tools.maven</groupId>
+                <artifactId>github-release-maven-plugin</artifactId>
+                <version>1.0.4.2</version>
+                <inherited>false</inherited>
+                <executions>
+                    <execution>
+                        <!-- Skip default execution from top-level -->
+                        <id>default-cli</id>
+                        <configuration>
+                            <skip>true</skip>
+                        </configuration>
+                    </execution>
+                    <execution>
+                        <!-- our specific execution -->
+                        <id>release-cli</id>
+                        <configuration>
+                            <owner>${github.owner}</owner>
+                            <repository>${github.repository}</repository>
+                            <server>${github.token}</server>
+                            <tagName>${project.version}</tagName>
+                            <name>${project.version}</name>
+                            <targetCommitish>master</targetCommitish>
+                            <body>${project.version}</body>
+                            <releaseNotes>ReleaseNotes.md</releaseNotes>
+                            <prerelease>${github.prerelease}</prerelease>
+                            <assets>
+                            </assets>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+    </build>
+</project>

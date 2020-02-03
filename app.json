@@ -1,0 +1,15 @@
+{
+  "name": "OWLCMS Olympic Weightlifting Competition Management System",
+  "description": "This application is used to run a OL competition.",
+  "repository": "https://github.com/jflamy/owlcms4", 
+  "buildpacks": [
+    {
+      "url": "https://github.com/SriniNa/Java_pack"
+    },
+    {
+      "url": "https://github.com/weibeld/heroku-buildpack-run"
+    }
+  ],
+  "addons": ["heroku-postgresql:hobby-dev", "papertrail"]
+}
+
