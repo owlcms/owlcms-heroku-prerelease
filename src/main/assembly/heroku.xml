@@ -9,9 +9,11 @@
 	<includeBaseDirectory>false</includeBaseDirectory>
 	<files>
 		<file>
-			<source>${project.basedir}/src/main/markdown/buildpack-run.sh</source>
+			<source>${project.basedir}/buildpack-run.sh</source>
 			<outputDirectory>/</outputDirectory>
 			<filtered>true</filtered>
+            <fileMode>755</fileMode>
+            <lineEnding>lf</lineEnding>
 		</file>
 		<file>
 			<source>${project.basedir}/Procfile</source>
