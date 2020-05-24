@@ -1,6 +1,6 @@
 ## OWLCMS4 Cloud Installer 4.7.5-beta9
 
-This release is for deploying OWLCMS4 to the Heroku cloud.  See [this page](https://${env.REPO_OWNER}.github.io/${env.O_REPO_NAME}/#/index) for the general documentation.
+This release is for deploying OWLCMS4 to the Heroku cloud.  See [this page](https://jflamy-dev.github.io/owlcms4-prerelease/#/index) for the general documentation.
 
 **To install**: click on this button.  You will be prompted to create a (free) account on the Heroku cloud if you do not have one already.
 
