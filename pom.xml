@@ -10,8 +10,8 @@
 
     <name>OWLCMS4 Cloud Deployment</name>
     <groupId>app.owlcms</groupId>
-    <artifactId>owlcms4-heroku</artifactId>
-    <version>4.7.4-beta5</version>
+    <artifactId>owlcms-heroku</artifactId>
+    <version>4.7.5-beta6</version>
     <packaging>pom</packaging>
 
     <properties>
