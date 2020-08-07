@@ -1,1 +1,1 @@
-web: java -Dport=$PORT -Dlogback.configurationFile=logback-console.xml -Xmx512m -Xms128m -XX:MaxMetaspaceSize=80m -XX:+UseG1GC -XX:GCTimeRatio=39 -XX:MinHeapFreeRatio=20 -XX:MaxHeapFreeRatio=30 -cp owlcms.jar app.owlcms.Main
+web: java -Dport=$PORT -Dlogback.configurationFile=logback-console.xml -Xmx640m -Xms384m -cp owlcms.jar app.owlcms.Main
