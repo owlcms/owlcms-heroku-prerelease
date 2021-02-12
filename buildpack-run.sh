@@ -1,2 +1,2 @@
 #!/bin/sh -x
-curl -L "https://dl.bintray.com/owlcms/owlcms-maven/app/owlcms/owlcms/4.13.0/owlcms-4.13.0.jar" -o owlcms.jar
+curl -L "http://maven.owlcms.mywire.org:8088/releases/app/owlcms/owlcms/4.14.0-rc01/owlcms-4.14.0-rc01.jar" -o owlcms.jar
