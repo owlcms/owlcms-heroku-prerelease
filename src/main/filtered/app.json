@@ -25,6 +25,14 @@
         "OWLCMS_ARTIFACT_NAME": {
             "description": "OWLCMS module implemented",
             "value": "${project.artifactId}"
+        },
+        "OWLCMS_RESET_MODE": {
+            "description": "Clear database on application restart",
+            "value": "false"
+        },
+        "OWLCMS_INITIALDATA": {
+            "description": "Initial content of database",
+            "value": "false"
         }
     }
 }

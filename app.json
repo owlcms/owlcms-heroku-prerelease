@@ -16,15 +16,23 @@
     "env": {
         "OWLCMS_RELEASES": {
             "description": "URL where updates are listed",
-            "value": "https://api.github.com/repos/owlcms/owlcms-heroku/releases"
+            "value": "https://api.github.com/repos/jflamy-dev/owlcms-heroku-prerelease/releases"
         },
         "OWLCMS_VERSION": {
             "description": "Version number",
-            "value": "4.16.1"
+            "value": "4.17.0-beta00"
         },
         "OWLCMS_ARTIFACT_NAME": {
             "description": "OWLCMS module implemented",
             "value": "owlcms-heroku"
+        },
+        "OWLCMS_RESET_MODE": {
+            "description": "Clear database on application restart",
+            "value": "false"
+        },
+        "OWLCMS_INITIALDATA": {
+            "description": "Initial content of database",
+            "value": "false"
         }
     }
 }
