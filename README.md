@@ -1,10 +1,10 @@
-## OWLCMS Cloud Installer 4.25.0-rc01
+## OWLCMS Cloud Installer 4.25.0-rc02
 
 This is the Heroku cloud version of the OWLCMS application.  See [this page](https://jflamy-dev.github.io/owlcms4-prerelease/#/index) for the general documentation.
 
 **Installation**: click on the button.  You will be prompted to create a (free) account on the Heroku cloud if you do not have one already.
 
-[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/jflamy-dev/owlcms-heroku-prerelease/tree/4.25.0-rc01)
+[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/jflamy-dev/owlcms-heroku-prerelease/tree/4.25.0-rc02)
 
 **Configuration**: Follow the following [instructions](https://jflamy-dev.github.io/owlcms4-prerelease/#/Heroku).
 
