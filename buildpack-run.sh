@@ -5,4 +5,4 @@
 # Licensed under the Non-Profit Open Software License version 3.0  ("NPOSL-3.0")
 # License text at https://opensource.org/licenses/NPOSL-3.0
 #*******************************************************************************
-curl -L "http://maven.owlcms.mywire.org:8088/releases/app/owlcms/owlcms/4.31.0-alpha02/owlcms-4.31.0-alpha02.jar" -o owlcms.jar
+curl -L "http://maven.owlcms.mywire.org:8088/releases/app/owlcms/owlcms/4.31.0-alpha03/owlcms-4.31.0-alpha03.jar" -o owlcms.jar
