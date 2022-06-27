@@ -1,10 +1,18 @@
+<<<<<<< HEAD
 ## OWLCMS Cloud Installer 4.33.0-alpha01
+=======
+## OWLCMS Cloud Installer 4.32.3
+>>>>>>> origin/master
 
 This is the Heroku cloud version of the OWLCMS application.  See [this page](https://owlcms.github.io/owlcms4-prerelease/#/index) for the general documentation.
 
 **Installation**: click on the button.  You will be prompted to create a (free) account on the Heroku cloud if you do not have one already.
 
+<<<<<<< HEAD
 [![Deploy to Heroku](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/owlcms/owlcms-heroku-prerelease/tree/4.33.0-alpha01)
+=======
+[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/owlcms/owlcms-heroku/tree/4.32.3)
+>>>>>>> origin/master
 
 **Configuration**: Follow the following [instructions](https://owlcms.github.io/owlcms4-prerelease/#/Heroku).
 
