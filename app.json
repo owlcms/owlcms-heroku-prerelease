@@ -11,7 +11,7 @@
         }
     ],
     "addons": [
-        "heroku-postgresql:hobby-dev"
+        "heroku-postgresql:mini"
     ],
     "env": {
         "OWLCMS_RELEASES": {
@@ -20,7 +20,7 @@
         },
         "OWLCMS_VERSION": {
             "description": "Version number",
-            "value": "35.0.0-rc01"
+            "value": "35.0.0-rc05"
         },
         "OWLCMS_ARTIFACT_NAME": {
             "description": "OWLCMS module implemented",
