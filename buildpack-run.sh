@@ -5,4 +5,4 @@
 # Licensed under the Non-Profit Open Software License version 3.0  ("NPOSL-3.0")
 # License text at https://opensource.org/licenses/NPOSL-3.0
 #*******************************************************************************
-curl -L "http://maven.lerta.ca:8880/releases/app/owlcms/owlcms/35.0.0-rc05/owlcms-35.0.0-rc05.jar" -o owlcms.jar
+curl -L "http://maven.lerta.ca:8880/releases/app/owlcms/owlcms/35.0.0/owlcms-35.0.0.jar" -o owlcms.jar
